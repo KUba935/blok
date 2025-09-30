@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 5px;
+    box-sizing: border-box;
+    align-items: flex;
+}
+.blok{
+    height: 300px;
+    width: 1400px;
+    background-color: brown;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blok > .bloczek{
+    height: 250px;
+    width: 1400px;
+    background-color: brown;
+}
+.blok2{
+    height: 600px;
+    width: 1400px;
+    background-color: rgb(255, 253, 253);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.blok2 > .bloczek2{
+    height: 400px;
+    width: 300px;
+    background-color: brown;
+    
+}
+.blok3{
+    height: 200px;
+    width: 1400px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.blok3 > .bloczek3{
+    border: 5px solid rgb(255, 255, 255);
+    height: 150px;
+    width: 50%;
+}
+.blok3 > .bloczek4{
+height: 150px;
+width: 50%;
+border: 5px solid white;
+}
+
+
+
